@@ -5,3 +5,4 @@
 require File.expand_path('../config/application', __FILE__)
 
 DemoApp::Application.load_tasks
+require 'tasks/delayed_tasks'

@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/opsb/delayed_task.git
+  revision: 5db87cf86acd7780664c924fbf5e1787a7fdb24d
+  specs:
+    delayed_task (0.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -105,6 +111,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (= 3.2.2)
+  delayed_task!
   jquery-rails (= 2.0.2)
   pg
   rails (= 3.2.8)
